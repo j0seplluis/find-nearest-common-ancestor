@@ -1,0 +1,35 @@
+24 8	To be used instead of the letters
+
+X	1
+X V	1  2
+X R	1  3
+X A	1  4
+V B	2  6
+A U	4  11
+U C	11 20
+U P	11 21
+V I	2  7
+B T	6  15
+R J	3  9
+T F	15 22
+J G	9  17
+A N	4  12
+G M	17 23
+X W	1  5
+W Q	5  14
+V O	2  8
+A K	4  10
+F L	22 24
+A D	4  13
+K S	10 19
+K E	10 18
+B H	6  16
+
+P Q	21 14
+D A	13 4
+S O	19 8
+R K	3  10
+L V	24 2
+P L	21 24
+Q N	14 12
+X F	1  22

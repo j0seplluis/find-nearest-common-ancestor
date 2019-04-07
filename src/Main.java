@@ -26,14 +26,14 @@ public class Main {
             tree[parent].add(child);
         }
 
-        System.out.println("Which pair of nodes do you want to find the nearest common ancestor?");
-        System.out.println("Enter the first node:");
-        int nodeA = scn.nextInt();
-        System.out.println("Enter the second node:");
-        int nodeB = scn.nextInt();
+            System.out.println("Which pair of nodes do you want to find the nearest common ancestor?");
+            System.out.println("Enter the first node:");
+            int nodeA = scn.nextInt();
+            System.out.println("Enter the second node:");
+            int nodeB = scn.nextInt();
 
-        findNearestCommonAncestor(1, tree, nodeA, nodeB);
-        System.out.println("The nearest common ancestor is: " + nca);
+            findNearestCommonAncestor(1, tree, nodeA, nodeB);
+            System.out.println("The nearest common ancestor is: " + nca);
     }
 
     static int nca = -1;
@@ -50,7 +50,7 @@ public class Main {
             }
         }
 
-        if (((self && count == 1) || (count == 2))) {
+        if ((self && count == 1) || (count == 2)) {
 
             if (nca == -1) {
                 nca = node;
