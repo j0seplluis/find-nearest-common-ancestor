@@ -9,7 +9,9 @@ public class Main {
         Scanner scn = new Scanner(System.in);
 
         int numNodes = scn.nextInt();
-        ArrayList<Integer>[] tree = new ArrayList[numNodes + 1];
+
+       @SuppressWarnings("unchecked")
+       ArrayList<Integer>[] tree = new ArrayList[numNodes + 1];
 
         for (int i = 0; i < tree.length; i++) {
             tree[i] = new ArrayList<>();
@@ -36,7 +38,7 @@ public class Main {
             System.out.println("The nearest common ancestor is: " + nca);
     }
 
-    static int nca = -1;
+    public static int nca = -1;
 
     public static boolean findNearestCommonAncestor(int node, ArrayList<Integer>[] tree, int nodeA, int nodeB) {
 
