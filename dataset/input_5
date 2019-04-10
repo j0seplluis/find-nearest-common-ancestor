@@ -1,6 +1,5 @@
-24 8	To be used instead of the letters
-
-X	1
+24 8	24
+X	
 X V	1  2
 X R	1  3
 X A	1  4
@@ -24,7 +23,6 @@ A D	4  13
 K S	10 19
 K E	10 18
 B H	6  16
-
 P Q	21 14
 D A	13 4
 S O	19 8
